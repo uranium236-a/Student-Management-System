@@ -1,4 +1,4 @@
-# Title: Student ERP CLI
+# Title: Student Management System CLI
   - A simple cli for a student erp system made using golang
 
 ## How to run
