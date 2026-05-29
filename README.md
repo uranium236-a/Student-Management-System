@@ -1,12 +1,39 @@
-# Title: Student Management System CLI
-  - A simple cli for a student erp system made using golang
+# MyApp - Student Management System
 
-## How to run
-  - go run main.go
-  - (make sure to download the main.go file and terminal set to correct directory containing main.go)
+A command-line interface (CLI) application for managing educational institution, built in Go. The system supports multiple user roles including students, teachers, and administrators.
 
-## Output:
-  <img width="837" height="543" alt="image" src="https://github.com/user-attachments/assets/80ac780a-f278-4dca-b1c9-a3726e79e20d" />
+## 📁 Project Structure
+ D:.
+│   go.mod
+│   main.go
+│   myapp.exe
+│   
+├───cli
+│       admin.go
+│       auth.go
+│       home.go
+│       reader.go
+│       student.go
+│       teacher.go
+│       
+├───models
+│       admin.go
+│       class.go
+│       institute.go
+│       student.go
+│       teacher.go
+│       user.go
+│       
+├───session
+│       session.go
+│       
+└───storage
 
-- THANK YOU
+## 🚀 Features
+  - Multiple role authentications: Admin, Teacher, Student
+  - 
 
+## 📝 Note :- Use "admin123" as default admin access key, you can change it in models/admin.go
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
